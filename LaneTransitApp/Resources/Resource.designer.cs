@@ -44,8 +44,17 @@ namespace LaneTransitApp
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050001
+			public const int SCROLLER_ID = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int TEXT_STATUS_ID = 2131034114;
+			
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
+			
+			// aapt resource value: 0x7f050003
+			public const int textView1 = 2131034115;
 			
 			static Id()
 			{
@@ -97,6 +106,9 @@ namespace LaneTransitApp
 			
 			// aapt resource value: 0x7f040000
 			public const int hello = 2130968576;
+			
+			// aapt resource value: 0x7f040002
+			public const int html = 2130968578;
 			
 			static String()
 			{

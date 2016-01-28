@@ -1,23 +1,31 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System.Net;
 
 namespace LaneTransitApp
 {
 	[Activity (Label = "Lane Transit App", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
 
-			// Set our view from the "main" layout resource
 			SetContentView (Resource.Layout.Main);
 
-			// Get our button from the layout resource,
-			// and attach an event to it
+			string htmlCode = "Nothing found";
+			using (WebClient client = new WebClient ()) {
+				htmlCode = client.DownloadString ("https://www.ltd.org/system-map/route_79x/");
+			}
+
+
+
+
+			TextView textView = FindViewById<TextView> (Resource.Id.TEXT_STATUS_ID);
+			textView.Text = htmlCode;
+	
+
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {
