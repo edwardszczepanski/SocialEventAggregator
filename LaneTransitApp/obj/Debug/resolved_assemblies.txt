@@ -2,6 +2,7 @@
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/System.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/System.Xml.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/Mono.Android.dll
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/HtmlAgilityPack.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/System.Core.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/mscorlib.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/assemblies/System.Runtime.Serialization.dll
