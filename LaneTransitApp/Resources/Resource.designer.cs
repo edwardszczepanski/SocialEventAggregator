@@ -53,9 +53,6 @@ namespace LaneTransitApp
 			// aapt resource value: 0x7f050000
 			public const int myButton = 2131034112;
 			
-			// aapt resource value: 0x7f050003
-			public const int textView1 = 2131034115;
-			
 			static Id()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

@@ -14,7 +14,6 @@ public final class R {
         public static final int SCROLLER_ID=0x7f050001;
         public static final int TEXT_STATUS_ID=0x7f050002;
         public static final int myButton=0x7f050000;
-        public static final int textView1=0x7f050003;
     }
     public static final class layout {
         public static final int main=0x7f030000;

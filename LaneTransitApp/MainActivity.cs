@@ -18,18 +18,17 @@ namespace LaneTransitApp
 			SetContentView (Resource.Layout.Main);
 
 
-			string htmlCode = "Nothing found";
-			using (WebClient client = new WebClient ()) {
-				htmlCode = client.DownloadString ("https://www.ltd.org/system-map/route_79x/");
-			}
-			htmlCode = Regex.Replace(htmlCode, @"<[^>]*>", String.Empty);
 
 			TextView textView = FindViewById<TextView> (Resource.Id.TEXT_STATUS_ID);
-			textView.Text = htmlCode;
 
 			HtmlWeb web = new HtmlWeb();
-			HtmlDocument doc = web.Load("https://google.com");
-			HtmlNodeCollection tags = doc.DocumentNode.SelectNodes("//abc//tag");
+			HtmlDocument doc = web.Load("https://www.ltd.org/system-map/route_79x/");
+			HtmlNodeCollection tags = doc.DocumentNode.SelectNodes("//td");
+			foreach (HtmlNode item in tags)  
+			{  
+				textView.Text = textView.Text + item.InnerHtml;
+			}  
+			textView.Text = Regex.Replace(textView.Text, @"<[^>]*>", String.Empty);
 
 
 			/*
