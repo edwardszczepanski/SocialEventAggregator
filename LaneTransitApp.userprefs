@@ -1,1 +1,17 @@
-﻿<Properties StartupItem="LaneTransitApp/LaneTransitApp.csproj" />
+﻿<Properties StartupItem="LaneTransitApp/LaneTransitApp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LaneTransitApp/MainActivity.cs">
+    <Files>
+      <File FileName="LaneTransitApp/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="LaneTransitApp/Page2.cs" Line="55" Column="34" />
+      <File FileName="LaneTransitApp/ListViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="LaneTransitApp/Route.cs" Line="1" Column="1" />
+      <File FileName="LaneTransitApp/SystemMap.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LaneTransitApp AndroidDesignerPreferredDevice="Nexus 4" AndroidDesignerPreferredTheme="Theme.DeviceDefault.Dialog.NoFrame" />
+</Properties>
