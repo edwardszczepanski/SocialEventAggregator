@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,10 +13,11 @@ using Android.Webkit;
 
 namespace LaneTransitApp
 {
-	[Activity (Label = "Page2")]			
+	[Activity (Label = "Select your Route")]			
 	public class Page2 : Activity
 	{
 		private List<string> mItems;
+		private List<Route> RouteList;
 		private ListView listView;
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
@@ -67,21 +67,21 @@ namespace LaneTransitApp
 			mItems.Add ("Diamond Express");
 			mItems.Add ("Rhody Express");
 
+			RouteList = new List<Route>();
+			RouteList.Add (new Route("Emx", "https://www.ltd.org/system-map/route_101/"));
 
 
-			ArrayAdapter<string> adapter = new ArrayAdapter<string>(this, Android.Resource.Layout.SimpleListItem1, mItems);
+			ListViewAdapter adapter = new ListViewAdapter (this, mItems);
+
 			listView.Adapter = adapter;
 
 			listView.ItemClick += listView_ItemClick;
-
-
-
 		}
 
 		void listView_ItemClick (object sender, AdapterView.ItemClickEventArgs e)
 		{
 			Console.WriteLine (mItems [e.Position]);
-			StartActivity(typeof(LaneWebsite));
+			StartActivity(typeof(SystemMap));
 		}
 	}
 

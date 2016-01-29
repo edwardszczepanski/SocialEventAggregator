@@ -51,7 +51,9 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Page2.cs" />
-    <Compile Include="LaneWebsite.cs" />
+    <Compile Include="SystemMap.cs" />
+    <Compile Include="Route.cs" />
+    <Compile Include="ListViewAdapter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -68,6 +70,7 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
     <AndroidResource Include="Resources\layout\listView.axml" />
     <AndroidResource Include="Resources\layout\Webview.axml" />
+    <AndroidResource Include="Resources\layout\listview_row.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

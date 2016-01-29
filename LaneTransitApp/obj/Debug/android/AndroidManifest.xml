@@ -11,8 +11,8 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:label="Page2" android:name="md54fd9ad84c682056ef6eb335a99b14bea.Page2" />
-    <activity android:label="Real Time Map" android:name="md54fd9ad84c682056ef6eb335a99b14bea.LaneWebsite" />
+    <activity android:label="Select your Route" android:name="md54fd9ad84c682056ef6eb335a99b14bea.Page2" />
+    <activity android:label="Real Time Map" android:name="md54fd9ad84c682056ef6eb335a99b14bea.SystemMap" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.edwardszczepanski.lane_transit_app.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
