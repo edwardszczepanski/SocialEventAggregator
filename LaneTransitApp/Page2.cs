@@ -69,9 +69,11 @@ namespace LaneTransitApp
 
 			RouteList = new List<Route>();
 			RouteList.Add (new Route("Emx", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("Emx", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("Emx", "https://www.ltd.org/system-map/route_101/"));
 
 
-			ListViewAdapter adapter = new ListViewAdapter (this, mItems);
+			ListViewAdapter adapter = new ListViewAdapter (this, RouteList);
 
 			listView.Adapter = adapter;
 

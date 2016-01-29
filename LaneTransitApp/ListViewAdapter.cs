@@ -14,11 +14,13 @@ namespace LaneTransitApp
 {
 	public class ListViewAdapter : BaseAdapter<string>
 	{
-		private List<string> items;
+		private List<string> items = new List<string>();
 		private Context context;
 
-		public ListViewAdapter(Context context, List<string> items){
-			this.items = items;
+		public ListViewAdapter(Context context, List<Route> routes){
+			for (int i = 0; i < routes.Count; ++i) {
+				items.Add (routes [i].getRoute());
+			}
 			this.context = context;
 		}
 
