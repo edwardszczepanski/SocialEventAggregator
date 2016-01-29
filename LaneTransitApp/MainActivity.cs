@@ -18,35 +18,19 @@ namespace LaneTransitApp
 			SetContentView (Resource.Layout.Main);
 
 
-
 			TextView textView = FindViewById<TextView> (Resource.Id.TEXT_STATUS_ID);
 
 			HtmlWeb web = new HtmlWeb();
 			HtmlDocument doc = web.Load("https://www.ltd.org/system-map/route_79x/");
+
 			HtmlNodeCollection tags = doc.DocumentNode.SelectNodes("//td");
 			foreach (HtmlNode item in tags)  
 			{  
-				textView.Text = textView.Text + item.InnerHtml;
+				textView.Text = textView.Text + item.InnerHtml +"\n";
 			}  
 			textView.Text = Regex.Replace(textView.Text, @"<[^>]*>", String.Empty);
 
-
-			/*
-
-			string pattern = "<div.*?>(.*?)<\\/div>";
-
-			MatchCollection matches = Regex.Matches(htmlCode, pattern);
-			Console.WriteLine("Matches found: {0}", matches.Count);
-
-			if (matches.Count > 0) {
-				foreach (Match m in matches) {
-					Console.WriteLine("Inner DIV: {0}", m.Groups[1]);
-				}
-			}
-			*/
-
 	
-
 			Button button = FindViewById<Button> (Resource.Id.myButton);
 			
 			button.Click += delegate {

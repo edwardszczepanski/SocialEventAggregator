@@ -16,3 +16,5 @@
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/LaneTransitApp.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/LaneTransitApp.dll.mdb
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/HtmlAgilityPack.dll
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/listview.xml
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/webview.xml
