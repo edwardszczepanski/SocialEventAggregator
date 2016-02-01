@@ -8,7 +8,7 @@ using System;
 
 namespace LaneTransitApp
 {
-	[Activity (Label = "Lane Transit App", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Party App", MainLauncher = true, Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
@@ -35,7 +35,7 @@ namespace LaneTransitApp
 			
 			button.Click += delegate {
 				//button.Text = string.Format ("{0} clicks!", count++);
-				StartActivity(typeof(Page2));
+				StartActivity(typeof(MapsView));
 			};
 		}
 	}

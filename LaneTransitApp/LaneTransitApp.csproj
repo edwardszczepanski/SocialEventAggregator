@@ -55,6 +55,7 @@
     <Compile Include="Route.cs" />
     <Compile Include="ListViewAdapter.cs" />
     <Compile Include="MobileSplash.cs" />
+    <Compile Include="MapsView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
