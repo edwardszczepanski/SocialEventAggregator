@@ -235,11 +235,15 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_light=0x7f020019;
     }
     public static final class id {
-        public static final int LocalWebView=0x7f08000d;
+        public static final int LocalWebView=0x7f080011;
         public static final int SCROLLER_ID=0x7f08000a;
         public static final int TEXT_STATUS_ID=0x7f08000b;
         public static final int adjust_height=0x7f080005;
         public static final int adjust_width=0x7f080006;
+        public static final int btnHybrid=0x7f08000e;
+        public static final int btnNormal=0x7f08000d;
+        public static final int btnSatellite=0x7f08000f;
+        public static final int btnTerrain=0x7f080010;
         public static final int hybrid=0x7f080000;
         public static final int listView=0x7f080007;
         public static final int map=0x7f08000c;

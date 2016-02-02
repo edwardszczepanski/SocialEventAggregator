@@ -244,8 +244,8 @@ namespace LaneTransitApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f08000d
-			public const int LocalWebView = 2131230733;
+			// aapt resource value: 0x7f080011
+			public const int LocalWebView = 2131230737;
 			
 			// aapt resource value: 0x7f08000a
 			public const int SCROLLER_ID = 2131230730;
@@ -258,6 +258,18 @@ namespace LaneTransitApp
 			
 			// aapt resource value: 0x7f080006
 			public const int adjust_width = 2131230726;
+			
+			// aapt resource value: 0x7f08000e
+			public const int btnHybrid = 2131230734;
+			
+			// aapt resource value: 0x7f08000d
+			public const int btnNormal = 2131230733;
+			
+			// aapt resource value: 0x7f08000f
+			public const int btnSatellite = 2131230735;
+			
+			// aapt resource value: 0x7f080010
+			public const int btnTerrain = 2131230736;
 			
 			// aapt resource value: 0x7f080000
 			public const int hybrid = 2131230720;

@@ -27,7 +27,7 @@
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
-    <activity android:icon="@mipmap/icon" android:label="Party App" android:name="md54fd9ad84c682056ef6eb335a99b14bea.MainActivity">
+    <activity android:icon="@mipmap/icon" android:label="Social Event Aggregator" android:name="md54fd9ad84c682056ef6eb335a99b14bea.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
@@ -36,7 +36,7 @@
     <activity android:label="Select your Route" android:name="md54fd9ad84c682056ef6eb335a99b14bea.Page2" />
     <activity android:label="Real Time Map" android:name="md54fd9ad84c682056ef6eb335a99b14bea.SystemMap" />
     <activity android:label="Plan your Trip" android:name="md54fd9ad84c682056ef6eb335a99b14bea.MobileSplash" />
-    <activity android:label="Google Maps" android:name="md54fd9ad84c682056ef6eb335a99b14bea.MapsView" />
+    <activity android:label="Maps Implementation" android:name="md54fd9ad84c682056ef6eb335a99b14bea.MapsView" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.edwardszczepanski.lane_transit_app.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
