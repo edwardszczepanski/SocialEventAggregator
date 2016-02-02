@@ -235,19 +235,20 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_light=0x7f020019;
     }
     public static final class id {
-        public static final int LocalWebView=0x7f080011;
-        public static final int SCROLLER_ID=0x7f08000a;
-        public static final int TEXT_STATUS_ID=0x7f08000b;
+        public static final int LocalWebView=0x7f080012;
+        public static final int SCROLLER_ID=0x7f08000b;
+        public static final int TEXT_STATUS_ID=0x7f08000c;
         public static final int adjust_height=0x7f080005;
         public static final int adjust_width=0x7f080006;
-        public static final int btnHybrid=0x7f08000e;
-        public static final int btnNormal=0x7f08000d;
-        public static final int btnSatellite=0x7f08000f;
-        public static final int btnTerrain=0x7f080010;
+        public static final int btnHybrid=0x7f08000f;
+        public static final int btnNormal=0x7f08000e;
+        public static final int btnSatellite=0x7f080010;
+        public static final int btnTerrain=0x7f080011;
         public static final int hybrid=0x7f080000;
         public static final int listView=0x7f080007;
-        public static final int map=0x7f08000c;
+        public static final int map=0x7f08000d;
         public static final int myButton=0x7f080009;
+        public static final int myButton2=0x7f08000a;
         public static final int none=0x7f080001;
         public static final int normal=0x7f080002;
         public static final int satellite=0x7f080003;
@@ -268,13 +269,15 @@ containing a value of this type.
         public static final int icon=0x7f030000;
     }
     public static final class string {
-        public static final int app_name=0x7f050023;
+        public static final int app_name=0x7f050024;
         /**  Brand name for Facebook [DO NOT TRANSLATE] 
          */
         public static final int auth_google_play_services_client_facebook_display_name=0x7f050003;
         /**  Brand name for Google [DO NOT TRANSLATE] 
          */
         public static final int auth_google_play_services_client_google_display_name=0x7f050002;
+        public static final int button1=0x7f050022;
+        public static final int button2=0x7f050023;
         /**   Text for notification shown when the Android Wear apps needs to be updated. Only shown on the wearable. [CHAR LIMIT=NONE] 
          */
         public static final int common_android_wear_notification_needs_update_text=0x7f050006;
@@ -387,8 +390,7 @@ containing a value of this type.
         /**  Long form sign-in button text [CHAR LIMIT=30] 
          */
         public static final int common_signin_button_text_long=0x7f050001;
-        public static final int hello=0x7f050022;
-        public static final int html=0x7f050024;
+        public static final int html=0x7f050025;
     }
     public static final class styleable {
         /**  Attributes for LoadingImageView 

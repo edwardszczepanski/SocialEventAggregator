@@ -244,14 +244,14 @@ namespace LaneTransitApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080011
-			public const int LocalWebView = 2131230737;
-			
-			// aapt resource value: 0x7f08000a
-			public const int SCROLLER_ID = 2131230730;
+			// aapt resource value: 0x7f080012
+			public const int LocalWebView = 2131230738;
 			
 			// aapt resource value: 0x7f08000b
-			public const int TEXT_STATUS_ID = 2131230731;
+			public const int SCROLLER_ID = 2131230731;
+			
+			// aapt resource value: 0x7f08000c
+			public const int TEXT_STATUS_ID = 2131230732;
 			
 			// aapt resource value: 0x7f080005
 			public const int adjust_height = 2131230725;
@@ -259,17 +259,17 @@ namespace LaneTransitApp
 			// aapt resource value: 0x7f080006
 			public const int adjust_width = 2131230726;
 			
-			// aapt resource value: 0x7f08000e
-			public const int btnHybrid = 2131230734;
-			
-			// aapt resource value: 0x7f08000d
-			public const int btnNormal = 2131230733;
-			
 			// aapt resource value: 0x7f08000f
-			public const int btnSatellite = 2131230735;
+			public const int btnHybrid = 2131230735;
+			
+			// aapt resource value: 0x7f08000e
+			public const int btnNormal = 2131230734;
 			
 			// aapt resource value: 0x7f080010
-			public const int btnTerrain = 2131230736;
+			public const int btnSatellite = 2131230736;
+			
+			// aapt resource value: 0x7f080011
+			public const int btnTerrain = 2131230737;
 			
 			// aapt resource value: 0x7f080000
 			public const int hybrid = 2131230720;
@@ -277,11 +277,14 @@ namespace LaneTransitApp
 			// aapt resource value: 0x7f080007
 			public const int listView = 2131230727;
 			
-			// aapt resource value: 0x7f08000c
-			public const int map = 2131230732;
+			// aapt resource value: 0x7f08000d
+			public const int map = 2131230733;
 			
 			// aapt resource value: 0x7f080009
 			public const int myButton = 2131230729;
+			
+			// aapt resource value: 0x7f08000a
+			public const int myButton2 = 2131230730;
 			
 			// aapt resource value: 0x7f080001
 			public const int none = 2131230721;
@@ -371,14 +374,20 @@ namespace LaneTransitApp
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050023
-			public const int app_name = 2131034147;
+			// aapt resource value: 0x7f050024
+			public const int app_name = 2131034148;
 			
 			// aapt resource value: 0x7f050003
 			public const int auth_google_play_services_client_facebook_display_name = 2131034115;
 			
 			// aapt resource value: 0x7f050002
 			public const int auth_google_play_services_client_google_display_name = 2131034114;
+			
+			// aapt resource value: 0x7f050022
+			public const int button1 = 2131034146;
+			
+			// aapt resource value: 0x7f050023
+			public const int button2 = 2131034147;
 			
 			// aapt resource value: 0x7f050006
 			public const int common_android_wear_notification_needs_update_text = 2131034118;
@@ -476,11 +485,8 @@ namespace LaneTransitApp
 			// aapt resource value: 0x7f050001
 			public const int common_signin_button_text_long = 2131034113;
 			
-			// aapt resource value: 0x7f050022
-			public const int hello = 2131034146;
-			
-			// aapt resource value: 0x7f050024
-			public const int html = 2131034148;
+			// aapt resource value: 0x7f050025
+			public const int html = 2131034149;
 			
 			static String()
 			{

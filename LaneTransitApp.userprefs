@@ -1,15 +1,13 @@
 ﻿<Properties StartupItem="LaneTransitApp/LaneTransitApp.csproj" RefactoringSettings.EnableRefactorings="True">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_23" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="LaneTransitApp/Properties/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LaneTransitApp/MainActivity.cs">
     <Files>
-      <File FileName="LaneTransitApp/MapsView.cs" Line="22" Column="68" />
-      <File FileName="LaneTransitApp/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="LaneTransitApp/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="LaneTransitApp/Page2.cs" Line="1" Column="1" />
+      <File FileName="LaneTransitApp/MapsView.cs" Line="81" Column="35" />
+      <File FileName="LaneTransitApp/MainActivity.cs" Line="21" Column="4" />
+      <File FileName="LaneTransitApp/Page2.cs" Line="64" Column="93" />
       <File FileName="LaneTransitApp/Route.cs" Line="1" Column="1" />
       <File FileName="LaneTransitApp/SystemMap.cs" Line="1" Column="1" />
-      <File FileName="LaneTransitApp/MobileSplash.cs" Line="1" Column="1" />
-      <File FileName="LaneTransitApp/ListViewAdapter.cs" Line="1" Column="1" />
+      <File FileName="LaneTransitApp/Resources/values/Strings.xml" Line="4" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -7,7 +7,12 @@
         android:id="@+id/myButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/button1" />
+    <Button
+        android:id="@+id/myButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button2" />
     <ScrollView
         android:id="@+id/SCROLLER_ID"
         android:layout_width="fill_parent"
