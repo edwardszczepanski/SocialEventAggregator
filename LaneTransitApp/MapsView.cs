@@ -10,20 +10,31 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using Android.Gms.Maps;
 
 namespace LaneTransitApp
 {
 	[Activity (Label = "Google Maps")]			
-	public class MapsView : Activity
+	public class MapsView : Activity, IOnMapReadyCallback
 	{
+		private GoogleMap mMap;
 		protected override void OnCreate (Bundle savedInstanceState)
 		{
 			base.OnCreate (savedInstanceState);
-			var geoUri = Android.Net.Uri.Parse ("geo:42.374260,-71.120824");
-			var mapIntent = new Intent (Intent.ActionView, geoUri);
-			StartActivity (mapIntent);
+			SetContentView (Resource.Layout.MapsLayout);
+			SetUpMap ();
 
-			// Create your application here
+		}
+
+		private void SetUpMap(){
+			if (mMap == null) {
+				FragmentManager.FindFragmentById<MapFragment> (Resource.Id.map).GetMapAsync (this);
+			}
+		}
+
+		public void OnMapReady (GoogleMap googleMap)
+		{
+			mMap = googleMap;
 		}
 	}
 }

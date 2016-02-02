@@ -1,14 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars></Jars>
-  <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/__library_projects__/HtmlAgilityPack/library_project_imports/res</ResolvedResourceDirectory>
-  </ResolvedResourceDirectories>
-  <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/__library_projects__/HtmlAgilityPack/library_project_imports/assets</ResolvedAssetDirectory>
-  </ResolvedAssetDirectories>
+  <ResolvedResourceDirectories />
+  <ResolvedAssetDirectories />
   <ResolvedEnvironmentFiles />
-  <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/__library_projects__/HtmlAgilityPack.stamp</ResolvedResourceDirectoryStamp>
-  </ResolvedResourceDirectoryStamps>
+  <ResolvedResourceDirectoryStamps />
 </Paths>

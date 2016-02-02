@@ -1,4 +1,8 @@
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/Xamarin.Android.Support.v4.dll
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/Xamarin.GooglePlayServices.Basement.dll
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/Xamarin.GooglePlayServices.Base.dll
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/Xamarin.GooglePlayServices.Maps.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/LaneTransitApp.dll.mdb
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/LaneTransitApp.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/com.edwardszczepanski.lane_transit_app.apk
@@ -10,12 +14,12 @@
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/mipmap-xhdpi/icon.png
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/mipmap-xxhdpi/icon.png
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/mipmap-xxxhdpi/icon.png
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/listview.xml
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/webview.xml
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/listview_row.xml
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/R.cs.flag
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/com.edwardszczepanski.lane_transit_app-Signed.apk
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/uploadflags.txt
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/LaneTransitApp.dll
 /Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/LaneTransitApp.dll.mdb
-/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/bin/Debug/HtmlAgilityPack.dll
-/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/listview.xml
-/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/webview.xml
-/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/listview_row.xml
+/Users/edwardszc/Projects/LaneTransitApp/LaneTransitApp/obj/Debug/res/layout/mapslayout.xml

@@ -80,7 +80,10 @@ public class MonoPackageManager {
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
 		"LaneTransitApp.dll",
-		"HtmlAgilityPack.dll",
+		"Xamarin.Android.Support.v4.dll",
+		"Xamarin.GooglePlayServices.Basement.dll",
+		"Xamarin.GooglePlayServices.Base.dll",
+		"Xamarin.GooglePlayServices.Maps.dll",
 		"System.ServiceModel.Internals.dll",
 	};
 	public static final String[] Dependencies = new String[]{
