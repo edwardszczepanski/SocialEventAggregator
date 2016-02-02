@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.Gms.Maps;
+using Android.Gms.Maps.Model;
 
 namespace LaneTransitApp
 {
@@ -65,11 +65,27 @@ namespace LaneTransitApp
 			if (mMap == null) {
 				FragmentManager.FindFragmentById<MapFragment> (Resource.Id.map).GetMapAsync (this);
 			}
+				
 		}
 
 		public void OnMapReady (GoogleMap googleMap)
 		{
 			mMap = googleMap;
+
+			MarkerOptions options = new MarkerOptions ();
+			options.SetPosition(new LatLng(50.379444, 2.773611));
+			options.SetTitle("Vimy Ridge");
+			mMap.AddMarker(options);
+
+			options.SetPosition(new LatLng(30, 5));
+			options.SetTitle("Coolsville");
+			options.InvokeIcon(BitmapDescriptorFactory.DefaultMarker (BitmapDescriptorFactory.HueCyan));
+			mMap.AddMarker(options);
+
+			options.SetPosition(new LatLng(39.0194, 125.7381));
+			options.SetTitle("Best Korea");
+			options.InvokeIcon(BitmapDescriptorFactory.DefaultMarker (BitmapDescriptorFactory.HueMagenta));
+			mMap.AddMarker(options);
 		}
 	}
 }
