@@ -14,7 +14,7 @@ using Android.Webkit;
 
 namespace LaneTransitApp
 {
-	[Activity (Label = "Real Time Map")]
+	[Activity (Label = "Filler Page")]
 	public class SystemMap : Activity
 	{
 		protected override void OnCreate (Bundle savedInstanceState)
