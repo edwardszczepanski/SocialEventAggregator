@@ -62,6 +62,15 @@ namespace LaneTransitApp
 			RouteList.Add (new Route("27 - Fairmount", "https://www.ltd.org/system-map/route_101/"));
 			RouteList.Add (new Route("28 - Hilyard", "https://www.ltd.org/system-map/route_101/"));
 			RouteList.Add (new Route("32 - W 1st Ave", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("Emx", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("11 - Thurston", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("13 - Centennial", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("17 - 5th St/Hayden B", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("18 - Mohawk", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("24 - Donald", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("27 - Fairmount", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("28 - Hilyard", "https://www.ltd.org/system-map/route_101/"));
+			RouteList.Add (new Route("32 - W 1st Ave", "https://www.ltd.org/system-map/route_101/"));
 
 
 			ListViewAdapter adapter = new ListViewAdapter (this, RouteList);

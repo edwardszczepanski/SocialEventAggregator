@@ -27,7 +27,7 @@ namespace LaneTransitApp
 			webView.SetWebViewClient(new WebViewClient ());
 
 			webView.Settings.JavaScriptEnabled = true;
-			webView.LoadUrl("https://www.ltd.org/system-map/");
+			webView.LoadUrl("https://google.com");
 			webView.Settings.SetSupportZoom(true);
 			webView.Settings.BuiltInZoomControls = true;
 			webView.SetInitialScale (100);
