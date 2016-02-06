@@ -7,3 +7,7 @@
 /Users/edwardszc/Projects/SocialApp/SocialApp/bin/Debug/Xamarin.Forms.Xaml.dll
 /Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.Test.xaml
 /Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/Test.xaml.g.cs
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.ListView.xaml
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/ListView.xaml.g.cs
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.SecondTry.xaml
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SecondTry.xaml.g.cs

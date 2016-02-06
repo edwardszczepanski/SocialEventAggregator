@@ -8,7 +8,8 @@ namespace SocialApp
 	{
 		public App ()
 		{
-			MainPage = new SocialApp.Test ();
+			
+			MainPage = new SocialApp.SecondTry();
 			/*
 			MainPage = new ContentPage {
 				Content = new StackLayout {

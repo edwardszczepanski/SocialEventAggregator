@@ -1,0 +1,17 @@
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/ibtool/LaunchScreen.nib
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/actool/partial-info.plist
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/actool/asset-manifest.plist
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/actool/_PartialAppManifest.items
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/optimized/
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/SocialApp.iOS.exe.mdb
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/SocialApp.iOS.exe
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/SocialApp.iOS.exe
+/Users/edwardszc/Projects/SocialApp/iOS/obj/iPhoneSimulator/Debug/SocialApp.iOS.exe.mdb
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/SocialApp.dll
+/Users/edwardszc/Projects/SocialApp/iOS/bin/iPhoneSimulator/Debug/SocialApp.dll.mdb
