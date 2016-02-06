@@ -1,0 +1,9 @@
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/edwardszc/Projects/SocialApp/SocialApp/bin/Debug/SocialApp.dll.mdb
+/Users/edwardszc/Projects/SocialApp/SocialApp/bin/Debug/SocialApp.dll
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.dll
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.dll.mdb
+/Users/edwardszc/Projects/SocialApp/SocialApp/bin/Debug/Xamarin.Forms.Core.dll
+/Users/edwardszc/Projects/SocialApp/SocialApp/bin/Debug/Xamarin.Forms.Xaml.dll
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/SocialApp.Test.xaml
+/Users/edwardszc/Projects/SocialApp/SocialApp/obj/Debug/Test.xaml.g.cs

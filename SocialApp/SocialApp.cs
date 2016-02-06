@@ -8,7 +8,8 @@ namespace SocialApp
 	{
 		public App ()
 		{
-			// The root page of your application
+			MainPage = new SocialApp.Test ();
+			/*
 			MainPage = new ContentPage {
 				Content = new StackLayout {
 					VerticalOptions = LayoutOptions.Center,
@@ -20,6 +21,7 @@ namespace SocialApp
 					}
 				}
 			};
+			*/
 		}
 
 		protected override void OnStart ()
