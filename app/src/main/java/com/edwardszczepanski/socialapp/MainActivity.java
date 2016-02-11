@@ -54,6 +54,12 @@ public class MainActivity extends AppCompatActivity {
         tabSpec.setIndicator("Event List");
         tabHost.addTab(tabSpec);
 
+        tabSpec = tabHost.newTabSpec("map");
+        tabSpec.setContent(R.id.tabMapEvent);
+        tabSpec.setIndicator("Event Map");
+        tabHost.addTab(tabSpec);
+
+
 
 
 
