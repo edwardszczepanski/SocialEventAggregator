@@ -10,16 +10,23 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TabHost;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
 
-    EditText eventText, addressText, descriptionText;
+    EditText eventText, addressText, descriptionText;       //Holds user event creater text field entries.
+    List<Event> Events = new ArrayList<Event>();            //ArrayList to hold events to be displayed (later will hold all events pulled from DB.
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,25 +44,33 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        eventText = (EditText) findViewById(R.id.txtEvent);
+        eventText = (EditText) findViewById(R.id.txtEvent);         //EditText variables holding event creation info.
         addressText = (EditText) findViewById(R.id.txtAddress);
         descriptionText = (EditText) findViewById(R.id.txtDescription);
+
         final Button addEventBtn = (Button) findViewById(R.id.btnEventAdd);
+            addEventBtn.setOnClickListener(new View.OnClickListener() {
+                public void onClick(View v) {
+                    addEvent(eventText.getText().toString(), addressText.getText().toString(), "01012016"); //Placeholder: need to add descrip. param & real timestamp (not int).
+                    Toast.makeText(getApplicationContext(), "Your event has been created!", Toast.LENGTH_SHORT).show(); //Displays message to user.
+                }
+            });
 
        TabHost tabHost = (TabHost) findViewById(R.id.tabHost);
        tabHost.setup();
 
-       TabHost.TabSpec tabSpec = tabHost.newTabSpec("creator");
+
+       TabHost.TabSpec tabSpec = tabHost.newTabSpec("creator");         //Tab details for "Create Event" tab.
         tabSpec.setContent(R.id.tabCreateEvent);
         tabSpec.setIndicator("Create Event");
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("list");
+        tabSpec = tabHost.newTabSpec("list");                           //Tab details for "Event List" tab.
         tabSpec.setContent(R.id.tabListEvent);
         tabSpec.setIndicator("Event List");
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("map");
+        tabSpec = tabHost.newTabSpec("map");                            //Tab details for "Event Map" tab.
         tabSpec.setContent(R.id.tabMapEvent);
         tabSpec.setIndicator("Event Map");
         tabHost.addTab(tabSpec);
@@ -66,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        eventText.addTextChangedListener(new TextWatcher() {
+        eventText.addTextChangedListener(new TextWatcher() {            //Event listener for text field entry.
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
@@ -87,7 +102,40 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * Adds a new event to Events ArrayList.
+     * @param eName
+     * @param eAddress
+     * @param tStamp
+     */
+    private void addEvent(String eName, String eAddress, String tStamp) {
+        Events.add(new Event(eName, eAddress, tStamp));
+    }
 
+
+    private class EventListAdapter extends ArrayAdapter<Event> {
+        public EventListAdapter() {
+            super(MainActivity.this, R.layout.listview_item, Events);
+        }
+
+        @Override
+        public View getView(int position, View view, ViewGroup parent) {
+            if (view == null) {
+                view = getLayoutInflater().inflate(R.layout.listview_item, parent, false);
+            }
+
+            Event currentEvent = Events.get(position);
+
+            TextView name = (TextView) view.findViewById(R.id.eventName);
+            name.setText(currentEvent.getEventName());
+            TextView address = (TextView) view.findViewById(R.id.eventAddress);
+            address.setText(currentEvent.getEventAddress());
+            TextView time = (TextView) view.findViewById(R.id.timeStamp);
+            time.setText(currentEvent.getTimeStamp());
+
+            return view;
+        }
+    }
 
 
     @Override
