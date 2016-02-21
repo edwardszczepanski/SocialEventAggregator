@@ -15,6 +15,7 @@ import android.view.Window;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TabHost;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText eventText, addressText, descriptionText;       //Holds user event creater text field entries.
     List<Event> Events = new ArrayList<Event>();            //ArrayList to hold events to be displayed (later will hold all events pulled from DB.
+    ListView eventListView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,11 +49,14 @@ public class MainActivity extends AppCompatActivity {
         eventText = (EditText) findViewById(R.id.txtEvent);         //EditText variables holding event creation info.
         addressText = (EditText) findViewById(R.id.txtAddress);
         descriptionText = (EditText) findViewById(R.id.txtDescription);
+        eventListView = (ListView) findViewById(R.id.listView);
 
         final Button addEventBtn = (Button) findViewById(R.id.btnEventAdd);
             addEventBtn.setOnClickListener(new View.OnClickListener() {
                 public void onClick(View v) {
                     addEvent(eventText.getText().toString(), addressText.getText().toString(), "01012016"); //Placeholder: need to add descrip. param & real timestamp (not int).
+
+                    populateList();
                     Toast.makeText(getApplicationContext(), "Your event has been created!", Toast.LENGTH_SHORT).show(); //Displays message to user.
                 }
             });
@@ -100,6 +105,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+    }
+
+    private void populateList() {
+        ArrayAdapter<Event> adapter = new EventListAdapter();
+        eventListView.setAdapter(adapter);
     }
 
     /**
