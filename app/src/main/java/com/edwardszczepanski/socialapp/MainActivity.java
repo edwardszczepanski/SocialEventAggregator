@@ -1,5 +1,5 @@
 package com.edwardszczepanski.socialapp;
-
+//Reference: Contains adaptations from John Manson contact list app, see https://www.youtube.com/watch?v=h7w3bveUfFA.
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
      * @param tStamp
      */
     private void addEvent(String eName, String eAddress, String tStamp) {
-        Events.add(new Event(eName, eAddress, tStamp));
+        Events.add(new Event(0, eName, eAddress, tStamp));
     }
 
 

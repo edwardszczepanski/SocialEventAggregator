@@ -11,6 +11,7 @@ package com.edwardszczepanski.socialapp;
  *      -add a real time stamp (right now just has placeholder (01012016).
  */
 public class Event {
+    private int eventId;
     private String eventName;
     private String eventAddress;
     private String timeStamp;
@@ -22,11 +23,14 @@ public class Event {
      * @param eAddress
      * @param tStamp
      */
-    public Event(String eName, String eAddress, String tStamp) {
+    public Event(int id, String eName, String eAddress, String tStamp) {
+        eventId = id;
         eventName = eName;
         eventAddress = eAddress;
         timeStamp = tStamp;
     }
+
+    public int getId() {return eventId; };
 
     /**
      * Get function for eventName, used in addEvent function in activity_main
